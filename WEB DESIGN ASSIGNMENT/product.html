@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>jack-agritech-online-shop</title>
+  </head>
+  <style>
+    .card-container-1 {
+      margin-top: 20px;
+    }
+    .card-1 {
+      lwidth: calc(25% - 20px); /* For large screens (4 cards in a row) */
+      margin: 10px;
+      background: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+  </style>
+
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <nav class="nav container">
+        <div class="nav__data">
+          <a href="#" class="nav__logo"> JARRDIM </a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__toggle-menu"></i>
+            <i class="ri-close-line nav__toggle-close"></i>
+          </div>
+        </div>
+
+        <!--=============== NAV MENU ===============-->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">About us</a>
+            </li>
+
+            <li>
+              <a href="login.html" class="nav__link">login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section Below Navbar -->
+    <div style="height: 5rem" class="hero">
+      <div style="position: absolute; top: 6rem">
+        <h2>Agritech Online Shop</h2>
+        <p style="font-family: agri">
+          Express Delivery & Free Delivery within Nairobi CBD
+        </p>
+      </div>
+    </div>
+
+    <div class="card-container-1" style="background-color: aqua">
+      <div
+        class="card-1"
+        style="display: flex; padding: 4rem; justify-content: center"
+      >
+        <div>
+          <img
+            src="/images/Cisterna-AG-x-Shop--400x400.jpg"
+            alt="Card Image 1"
+          />
+        </div>
+
+        <div class="card-content" style="text-align: left;">
+          <h2>Truck Tanks</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <span
+            > <strong style="font-size: 2rem; color: orangered;">.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+            deserunt?</span><br>
+          <span
+            > <strong style="font-size: 2rem; color: orangered;">.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+            deserunt?</span><br>
+          <span
+            > <strong style="font-size: 2rem; color: orangered;">.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+            deserunt?</span><br>
+          <span
+            > <strong style="font-size: 2rem; color: orangered;">.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+            deserunt?</span><br>
+          <span
+            > <strong style="font-size: 2rem; color: orangered;">.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+            deserunt?</span>
+
+        </div>
+      </div>
+
+      <div class="card-1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur
+        eum ab nobis repellat, soluta asperiores illum quasi deserunt tenetur.
+        At?
+      </div>
+    </div>
+  </body>
+</html>
